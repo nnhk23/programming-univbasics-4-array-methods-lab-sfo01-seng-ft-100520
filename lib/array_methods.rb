@@ -8,8 +8,7 @@ array
 end
 
 def using_reverse(array)
-array.reverse!
-array
+puts array.reverse!
 end
 
 def using_first(array)
