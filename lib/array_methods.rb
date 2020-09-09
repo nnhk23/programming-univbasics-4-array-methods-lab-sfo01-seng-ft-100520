@@ -3,13 +3,14 @@ array.include?(element)
 end
 
 def using_sort(array)
-array.sort
+array.sort!
 array
 end
 
 def using_reverse(array)
-array.reverse!
-array
+  new_array = []
+new_array = array.reverse
+new_array
 end
 
 def using_first(array)
