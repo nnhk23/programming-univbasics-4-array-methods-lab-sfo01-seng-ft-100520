@@ -14,7 +14,9 @@ new_array
 end
 
 def using_first(array)
-puts array.first 
+first = []
+first = array.first 
+first
 end
 
 def using_last(array)
