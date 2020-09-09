@@ -8,11 +8,12 @@ array
 end
 
 def using_reverse(array)
-
+array.reverse 
+array
 end
 
 def using_first(array)
-
+puts array.first 
 end
 
 def using_last(array)
